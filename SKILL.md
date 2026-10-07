@@ -1,13 +1,13 @@
 ---
 name: communicate-clearly
-description: Draft or revise agent handoffs, status reports, and human explanations while preserving meaning and making intent, evidence, ownership, and purpose clear. Use when these distinctions matter to the requested communication; not as a mandatory format for every response or a certification of STE or SMCP compliance.
+description: Draft or revise agent handoffs, status reports, and human explanations while preserving meaning and making intent, evidence, ownership, and purpose clear. Use when these distinctions affect how a recipient interprets or acts on a message.
 ---
 
 # Communicate Clearly
 
 Preserve meaning and make intent explicit. Connect communication to the user's purpose, constraints, and definition of success. Fluent wording and successful execution alone do not establish that an action serves the right objective.
 
-This skill adapts SMCP message distinctions, STE clarity principles, and reflective practice. Its markers are local conventions, not official SMCP terminology. It does not certify compliance with either standard or replace the surrounding system's authorization rules.
+This skill adapts SMCP message distinctions, STE clarity principles, and reflective practice to agent coordination and human explanations.
 
 ## Choose the form
 
@@ -61,4 +61,4 @@ Before delivering, compare the output with the source and task:
 
 Fix substantive ambiguities first. Keep the final communication as simple as the situation allows. Return the requested artifact rather than a routine account of this checklist.
 
-For difficult rewrites or framing conflicts, consult [references/examples.md](references/examples.md). For the conceptual basis and source boundaries, consult [references/design-notes.md](references/design-notes.md).
+For difficult rewrites or framing conflicts, consult [references/examples.md](references/examples.md). For the ideas behind the skill and their sources, consult [references/design-notes.md](references/design-notes.md).

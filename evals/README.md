@@ -6,7 +6,7 @@ These cases check communication decisions, not exact wording. They require no li
 
 Give an independent agent the skill and `cases.json`, without this rubric or prior conclusions. Ask it to produce an answer for each prompt, reading only relevant references. Save the responses outside the repository while evaluating. Then compare them with the criteria below. Record failures and revise the skill only when the observed behavior supports a change.
 
-This is a development smoke check, not a benchmark proving reliability or improvement over other skills. Structural frontmatter validation is a separate check. For a comparative study, follow the design in [design-notes.md](../references/design-notes.md#what-remains-a-hypothesis).
+Review the meaning of each response separately from structural frontmatter validation.
 
 ## Semantic criteria
 

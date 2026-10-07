@@ -36,8 +36,6 @@ limits: The output file has not been inspected; its completeness is unknown.
 
 Human explanation: "The worker reports a successful exit, but we have not checked the output file, so its completeness is still unknown."
 
-Neither message claims direct observation, artifact verification, or successful downstream delivery.
-
 ## An explanation can be short
 
 User: "Explain why a successful upload request doesn't always mean my file is ready."

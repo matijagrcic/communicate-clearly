@@ -1,6 +1,6 @@
 # Agent coordination
 
-Read this when drafting or interpreting an agent handoff, action request, or execution report. Fit the receiving system's existing protocol. These conventions describe meaning; they do not authorize sending a message or performing its requested action.
+Read this when drafting or interpreting an agent handoff, action request, or execution report. Fit the receiving system's existing protocol.
 
 ## Message types
 
@@ -17,7 +17,7 @@ Use only the types needed. Split a message when clauses perform different functi
 | `RESULT` | What actually happened | Action or outcome, evidence, status, and verification limits |
 | `WARNING` | A relevant risk | The trigger and possible consequence; do not assert that it has occurred |
 
-This is an adaptation of SMCP, with added distinctions for inference and results. `RECOMMENDATION`, `PLAN`, `INFERENCE`, and `RESULT` are not a claim about official SMCP markers. An answer can be `INFORMATION`, `INFERENCE`, or `RESULT`, as its content warrants.
+This vocabulary adapts SMCP for agent work, with added distinctions for inference and results. An answer can be `INFORMATION`, `INFERENCE`, or `RESULT`, as its content warrants.
 
 `REQUEST` does not itself decide whether an action is mandatory or optional. If the user or another authorized source requires something, retain that requirement explicitly with its source and scope. If someone only suggests it, preserve that discretion. Do not relabel a suggestion into an obligation, or weaken an existing obligation into advice.
 
@@ -90,4 +90,4 @@ If a wrong interpretation could cause a consequential action, ask for a focused 
 
 ## Machine-readable exchanges
 
-Use JSON only when the recipient expects or can consume it. Follow its schema. The same distinctions can be represented as `type`, `content`, and relevant context fields; a JSON object is not proof of truth, successful execution, or authorization. This skill supplies semantic conventions, not a transport protocol or enforced schema.
+Use JSON only when the recipient expects or can consume it. Follow its schema. The same distinctions can be represented as `type`, `content`, and relevant context fields.

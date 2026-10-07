@@ -22,7 +22,23 @@ Human explanations use ordinary language. Agent exchanges can use `INFORMATION`,
 
 The skill also notices when a proposed action optimizes a metric at the expense of the stated purpose. It distinguishes changes of method from changes of objective and carries forward decisions the user has already made.
 
-## Install in Codex
+## Install
+
+From your project directory, use the [Skills CLI](https://github.com/vercel-labs/skills) from [skills.sh](https://skills.sh):
+
+```sh
+npx skills@latest add matijagrcic/communicate-clearly
+```
+
+Or install globally for Codex:
+
+```sh
+npx skills@latest add matijagrcic/communicate-clearly --skill communicate-clearly --agent codex --global
+```
+
+For this private repository, the CLI uses your existing Git, GitHub CLI, or SSH authentication with an account that has access. See [private repository support](https://github.com/vercel-labs/skills#private-repositories).
+
+### Manual installation in Codex
 
 The repository root is the skill folder. With GitHub CLI authenticated to an account that can access this private repository, clone it to a new skill directory:
 

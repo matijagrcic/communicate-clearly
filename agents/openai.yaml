@@ -1,0 +1,4 @@
+interface:
+  display_name: "Communicate Clearly"
+  short_description: "Preserve meaning; clarify intent, evidence, and purpose"
+  default_prompt: "Use $communicate-clearly to improve this explanation or handoff while preserving its meaning, purpose, and constraints."
